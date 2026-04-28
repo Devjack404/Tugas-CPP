@@ -2,7 +2,7 @@
 using namespace std;
 
 int main (){
-//     int arr[] = {64, 25, 12, 22, 11};
+//int arr[] = {64, 25, 12, 22, 11};
 // int n = 5;
 // ```
 
@@ -13,7 +13,7 @@ int main (){
 // ```
 // Putaran 1: 25 12 22 11 64
 // Putaran 2: 12 22 11 25 64
-// ...
+
 
     int arr[] = {64, 25, 12, 22, 11};
     int  n = 5;
@@ -35,8 +35,7 @@ int main (){
         for (int j = 0; j < n; j++){
             cout << arr[j] << " ";   
         }
-        cout << endl;
-    }
+        cout << endl;    }
 
     return 0;
 };
